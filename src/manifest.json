@@ -1,0 +1,10 @@
+{
+    "name": "Zen Telegram",
+    "version": "1.0",
+    "description": "Clean Telegram",
+    "content_scripts": [{
+        "matches": ["https://telegram.org/*"],
+        "css": ["style.css"]
+    }],
+    "manifest_version": 2
+}
